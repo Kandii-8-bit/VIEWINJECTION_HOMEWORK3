@@ -1,0 +1,323 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 15px;
+}
+
+nav {
+  height: 65px;
+  background-color: #686d76;
+  display: flex;
+}
+nav a {
+  text-decoration: none;
+  color: #f5edd0;
+  font-family: "Satisfy", cursive;
+  font-size: large;
+  margin: auto;
+}
+
+.hero {
+  height: 500px;
+  margin-top: 45px;
+  background: url(../assets/makeupbrushes.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+.hero .scrolltxt {
+  font-family: "Roboto", sans-serif;
+  font-size: 400px;
+  font-weight: 100;
+  color: #f5edd0;
+  opacity: 0.5;
+}
+
+.homeContent {
+  height: 300px;
+  width: 800px;
+  margin: 0 auto;
+  margin-top: 45px;
+  border-radius: 25px;
+  border-style: solid;
+  border-color: #686d76;
+}
+.homeContent .infoTitle {
+  padding-top: 15px;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+}
+.homeContent .infoPar {
+  padding-top: 25px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+}
+
+footer {
+  height: 465px;
+  background-color: #9c89ad;
+  margin-top: 45px;
+}
+footer .logo {
+  padding-top: 50px;
+  padding-left: 920px;
+  margin: auto;
+  position: relative;
+}
+footer .address {
+  color: #f5edd0;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 5px;
+  padding-top: 10px;
+}
+footer .email {
+  color: #f5edd0;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 5px;
+  padding-top: 10px;
+}
+footer .phone {
+  color: #f5edd0;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 5px;
+  padding-top: 10px;
+}
+footer .mailList {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+footer .mailList input {
+  height: 100%;
+  width: 529px;
+  background-color: #b69fc9;
+  border: none;
+  color: #f5edd0;
+  font-size: 16px;
+  padding-left: 15px;
+  border-radius: 5px;
+}
+footer .mailList ::placeholder {
+  color: #f5edd0;
+  opacity: 1;
+}
+footer .mailList .button {
+  font-family: "Roboto", sans-serif;
+  height: 100%;
+  width: 167px;
+  background-color: #f5edd0;
+  color: #9c89ad;
+  text-align: center;
+  padding: 20px 0;
+  border-radius: 5px;
+}
+
+.heroTwo {
+  height: 500px;
+  margin-top: 45px;
+  background: url(../assets/about.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+.heroTwo .scrolltxtTwo {
+  font-family: "Roboto", sans-serif;
+  font-size: 400px;
+  font-weight: 100;
+  color: #f5edd0;
+  opacity: 0.5;
+}
+
+.about {
+  height: 900px;
+  margin-top: 45px;
+}
+.about img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  margin-left: 500px;
+  margin-top: 50px;
+  border-radius: 100px;
+}
+.about .teamBlurb {
+  height: 200px;
+  width: 200px;
+  margin-top: 45px;
+  margin-right: 800px;
+  float: right;
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+}
+
+.heroThree {
+  height: 500px;
+  margin-top: 45px;
+  background: url(../assets/makeup.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+.heroThree .scrolltxtThree {
+  font-family: "Roboto", sans-serif;
+  font-size: 400px;
+  font-weight: 100;
+  color: #f5edd0;
+  opacity: 0.5;
+}
+
+.products {
+  height: 900px;
+  margin-top: 45px;
+}
+.products img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  margin-left: 500px;
+  margin-top: 50px;
+}
+.products .productBlurb {
+  height: 200px;
+  width: 200px;
+  margin-top: 45px;
+  margin-right: 800px;
+  float: right;
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+}
+
+.heroFour {
+  height: 500px;
+  margin-top: 45px;
+  background: url(../assets/bloghero.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+.heroFour .scrolltxtFour {
+  font-family: "Roboto", sans-serif;
+  font-size: 400px;
+  font-weight: 100;
+  color: #f5edd0;
+  opacity: 0.5;
+}
+
+.blog {
+  height: 900px;
+  margin-top: 45px;
+}
+.blog .blogEntries {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.blog .blogEntries img {
+  width: 450px;
+  object-fit: cover;
+  margin-left: 45px;
+  margin-top: 50px;
+}
+.blog .blogBlurb {
+  width: 900px;
+  margin-top: 25px;
+  margin-left: 570px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+}
+
+.heroFive {
+  height: 500px;
+  margin-top: 45px;
+  background: url(../assets/contacthero.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+.heroFive .scrolltxtFive {
+  font-family: "Roboto", sans-serif;
+  font-size: 400px;
+  font-weight: 100;
+  color: #f5edd0;
+  opacity: 0.5;
+}
+
+.contactForm {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+}
+.contactForm label {
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  padding-top: 45px;
+  display: block;
+}
+.contactForm .formStyle {
+  display: block;
+  width: 567px;
+  height: 53px;
+  margin-top: 20px;
+  justify-content: center;
+  border: 2px solid #686d76;
+  border-radius: 10px;
+}
+.contactForm textarea {
+  display: block;
+  width: 467px;
+  height: 53px;
+  margin-top: 20px;
+  justify-content: center;
+  border: 2px solid #686d76;
+  border-radius: 10px;
+}
+.contactForm .submitButton {
+  margin-top: 35px;
+  display: block;
+  background-color: #686d76;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  height: 50px;
+  width: 200px;
+  border-radius: 5px;
+}

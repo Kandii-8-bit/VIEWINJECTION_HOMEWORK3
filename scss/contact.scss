@@ -1,0 +1,65 @@
+.heroFive {
+  height: 500px;
+  margin-top: 45px;
+  background: url(../assets/contacthero.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+
+  .scrolltxtFive {
+    font-family: "Roboto", sans-serif;
+    font-size: 400px;
+    font-weight: 100;
+    color: #f5edd0;
+    opacity: 0.5;
+  }
+}
+
+.contactForm {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+
+  label {
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    padding-top: 45px;
+    display: block;
+  }
+
+  .formStyle {
+    display: block;
+    width: 567px;
+    height: 53px;
+    margin-top: 20px;
+    // margin-bottom: 20px;
+    justify-content: center;
+    border: 2px solid #686d76;
+    border-radius: 10px;
+  }
+
+  textarea {
+    display: block;
+    width: 467px;
+    height: 53px;
+    margin-top: 20px;
+    // margin-bottom: 20px;
+    justify-content: center;
+    border: 2px solid #686d76;
+    border-radius: 10px;
+  }
+
+  .submitButton {
+    margin-top: 35px;
+    display: block;
+    background-color: #686d76;
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    height: 50px;
+    width: 200px;
+    border-radius: 5px;
+  }
+}

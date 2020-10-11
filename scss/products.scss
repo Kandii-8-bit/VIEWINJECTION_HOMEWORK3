@@ -1,0 +1,43 @@
+.heroThree {
+  height: 500px;
+  margin-top: 45px;
+  background: url(../assets/makeup.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+
+  .scrolltxtThree {
+    font-family: "Roboto", sans-serif;
+    font-size: 400px;
+    font-weight: 100;
+    color: #f5edd0;
+    opacity: 0.5;
+  }
+}
+
+.products {
+  height: 900px;
+  margin-top: 45px;
+  //   background-color: black;
+
+  img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    margin-left: 500px;
+    margin-top: 50px;
+    // border-radius: 100px;
+  }
+
+  .productBlurb {
+    height: 200px;
+    width: 200px;
+    margin-top: 45px;
+    margin-right: 800px;
+    float: right;
+    // background-color: burlywood;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+  }
+}

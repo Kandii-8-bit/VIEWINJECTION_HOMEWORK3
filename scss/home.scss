@@ -1,0 +1,43 @@
+// Home Styling
+.hero {
+  height: 500px;
+  margin-top: 45px;
+  background: url(../assets/makeupbrushes.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+
+  .scrolltxt {
+    font-family: "Roboto", sans-serif;
+    font-size: 400px;
+    font-weight: 100;
+    color: #f5edd0;
+    opacity: 0.5;
+  }
+}
+
+.homeContent {
+  height: 300px;
+  width: 800px;
+  margin: 0 auto;
+  margin-top: 45px;
+  border-radius: 25px;
+  border-style: solid;
+  border-color: #686d76;
+
+  .infoTitle {
+    padding-top: 15px;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+  }
+
+  .infoPar {
+    padding-top: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+  }
+}

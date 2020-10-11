@@ -1,0 +1,17 @@
+//Navigation styling
+nav {
+  height: 65px;
+  // width: 100%;
+  // position: fixed;
+  // z-index: 99;
+  background-color: #686d76;
+  display: flex;
+
+  a {
+    text-decoration: none;
+    color: #f5edd0;
+    font-family: "Satisfy", cursive;
+    font-size: large;
+    margin: auto;
+  }
+}
